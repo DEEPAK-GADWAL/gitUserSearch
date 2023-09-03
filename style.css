@@ -90,3 +90,10 @@
         margin-left: 0 !important;
     }
  }
+ 
+ @media(max-width:630px){
+    .otherDetails1 ul li a{
+    display: none !important;
+    }
+    
+ }
