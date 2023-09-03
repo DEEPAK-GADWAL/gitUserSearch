@@ -33,7 +33,7 @@ let displayUserData = () => {
               </div>
               <div class="otherDetails1">
                   <ul class="d-flex justify-content-between ">
-                  <li><a class="profileUrl ms-2" href="${user.html_url}" target="_blank"><span class="text-white">profile: </span> ${user.html_url}</a></li>
+                  <li><a class="profileUrl" href="${user.html_url}" target="_blank"><span class="text-white">profile: </span> ${user.html_url}</a></li>
                       <li class="item1">repository: ${user.public_repos}</li>
                   </ul>
               </div>
