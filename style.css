@@ -1,0 +1,92 @@
+/* Base styles */
+.gitImg img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 5px solid grey;
+    object-fit: cover;
+  }
+  
+  .username {
+    margin-left: 31px;
+    
+  }
+  
+  .container {
+    border-radius: 10px;
+    background: linear-gradient(45deg, black, #a17676);
+  }
+  
+  .otherDetails ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .otherDetails1 ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* .item {
+    margin-left: 100px;
+  } */
+  
+  /* .item1 {
+    margin-left: 143px;
+  } */
+  
+  .username {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .profileUrl {
+    color: chocolate;
+    text-decoration: none;
+  }
+  
+  .profileUrl:hover {
+    color: white;
+  }
+  
+
+ @media (max-width:1000px){
+    .gitImg img{
+        width: 70px;
+        height: 70px;
+    }
+ }
+ @media (max-width:800px){
+    .gitImg img{
+        width: 60px;
+        height: 60px;
+    }
+    .username {
+        font-weight: 500;
+        font-size: 20px;
+    }
+ }
+ @media (max-width:700px){
+    .gitImg img{
+        width: 50px;
+        height: 50px;
+    }
+    .username {
+        font-weight: 500;
+        font-size: 15px;
+    }
+ }
+
+ @media(max-width:900px){
+    .otherDetails ul {
+    display: block !important;
+    }
+ }
+ @media(max-width:900px){
+    .otherDetails1 ul {
+    display: block !important;
+    }
+    .otherDetails1 ul li a{
+        margin-left: 0 !important;
+    }
+ }
