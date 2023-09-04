@@ -41,6 +41,7 @@ let displayUserData = () => {
         </div>`;
       mainElem.innerHTML = ''; 
       mainElem.appendChild(cardDiv);
+      inputElem.value = '';
     } catch (error) {
       console.error(error);
     }
